@@ -1,14 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        Cat murzik = new Cat("Мурзик",8);
-        //murzik.name = "Бегемот";
-        //murzik.age = 5;
+        Cat murzik = new Cat("Мурзик","русский",8);
         murzik.meow();
 
-        Cat begemot = new Cat("Бегемот",5);
-        //begemot.name = "Бегемот";
-        //begemot.age = 5;
+        Cat begemot = new Cat("Бегемот","сиамский",5);
+
         begemot.meow();
+
+        Cat busya = new Cat("Буся","сибирский",9);
+        busya.meow();
 
 
     }
